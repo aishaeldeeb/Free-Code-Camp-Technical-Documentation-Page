@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montaga&display=swap');
+*{
+  box-sozong:box-border;
+  margin:0;
+  padding:0;
+  font-family: 'Montaga', serif;
+  background-color:#24252A;
+  color: #edf0f1;
+  line-height:35px;
+}
+body{
+  padding: 20px 0;
+}
+#navbar{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+}
+@media(max-width:815px){
+  #navbar{
+    width: 150px;
+  }
+}
+#main-doc{
+  margin-left:300px;
+  padding:0 20px;
+  text-align:justify;
+  border-left: solid #edf1f0;
+}
+
+header{
+  font-size:2.5rem;
+  padding: 20px 0;
+}
+p,a{
+  font-size:1.25rem;
+  
+}
+p{
+  padding:0 25px;
+}
+#main-doc ul{
+  padding-left:70px;
+}
+.nav-elements{
+list-style:none;
+  padding: 0;
+  
+}
+.nav-elements li {
+  padding: 15px 0;
+  border-bottom:solid;
+  
+}
+.nav-elements li a{
+  text-decoration:none;
+  margin:25px 0;
+  padding: 15px 0;
+  curdor:pointer;
+  
+    
+}
+
+.nav-link:hover{
+  font-size: 1.75rem;
+}
